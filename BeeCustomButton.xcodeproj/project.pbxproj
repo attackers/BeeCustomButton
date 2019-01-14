@@ -13,6 +13,8 @@
 		3423B69421EC941400500407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3423B69321EC941400500407 /* Assets.xcassets */; };
 		3423B69721EC941400500407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3423B69521EC941400500407 /* LaunchScreen.storyboard */; };
 		3423B69A21EC941400500407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3423B69921EC941400500407 /* main.m */; };
+		3423B6A421EC941D00500407 /* BeeCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3423B6A121EC941D00500407 /* BeeCustomButton.m */; };
+		3423B6A521EC941D00500407 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3423B6A221EC941D00500407 /* .gitkeep */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		3423B69621EC941400500407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3423B69821EC941400500407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3423B69921EC941400500407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3423B6A121EC941D00500407 /* BeeCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeCustomButton.m; sourceTree = "<group>"; };
+		3423B6A221EC941D00500407 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		3423B6A321EC941D00500407 /* BeeCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeCustomButton.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		3423B68921EC941300500407 /* BeeCustomButton */ = {
 			isa = PBXGroup;
 			children = (
+				3423B6A021EC941D00500407 /* Classes */,
 				3423B68A21EC941300500407 /* AppDelegate.h */,
 				3423B68B21EC941300500407 /* AppDelegate.m */,
 				3423B68D21EC941300500407 /* ViewController.h */,
@@ -69,6 +75,17 @@
 				3423B69921EC941400500407 /* main.m */,
 			);
 			path = BeeCustomButton;
+			sourceTree = "<group>";
+		};
+		3423B6A021EC941D00500407 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3423B6A121EC941D00500407 /* BeeCustomButton.m */,
+				3423B6A221EC941D00500407 /* .gitkeep */,
+				3423B6A321EC941D00500407 /* BeeCustomButton.h */,
+			);
+			name = Classes;
+			path = ../../../Documents/BeeCustomButton/BeeCustomButton/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +148,7 @@
 				3423B69721EC941400500407 /* LaunchScreen.storyboard in Resources */,
 				3423B69421EC941400500407 /* Assets.xcassets in Resources */,
 				3423B69221EC941300500407 /* Main.storyboard in Resources */,
+				3423B6A521EC941D00500407 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +162,7 @@
 				3423B68F21EC941300500407 /* ViewController.m in Sources */,
 				3423B69A21EC941400500407 /* main.m in Sources */,
 				3423B68C21EC941300500407 /* AppDelegate.m in Sources */,
+				3423B6A421EC941D00500407 /* BeeCustomButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BeeCustomButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BeeCustomButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
