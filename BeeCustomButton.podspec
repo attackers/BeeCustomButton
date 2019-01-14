@@ -16,8 +16,8 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "BeeCustomButton"
-  spec.version      = "0.0.1"
-  spec.summary      = "A short description of BeeCustomButton."
+  spec.version      = "0.0.4"
+  spec.summary      = "A short description of BeeCustomButton is my custombutton."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+	设置了不同类型的按钮，主要是对图片与文字的位置进行了改变，方便以后使用布局
                    DESC
 
   spec.homepage     = "http://EXAMPLE/BeeCustomButton"
@@ -90,8 +91,8 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  spec.source_files  = "BeeCustomButton/Classes", "BeeCustomButton/Classes/**/*.{h,m}"
+#  spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 

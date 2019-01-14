@@ -14,10 +14,12 @@
 		3423B69721EC941400500407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3423B69521EC941400500407 /* LaunchScreen.storyboard */; };
 		3423B69A21EC941400500407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3423B69921EC941400500407 /* main.m */; };
 		3423B6A421EC941D00500407 /* BeeCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3423B6A121EC941D00500407 /* BeeCustomButton.m */; };
-		3423B6A521EC941D00500407 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3423B6A221EC941D00500407 /* .gitkeep */; };
+		DAC9E716778DEC2BA4A826EA /* libPods-BeeCustomButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19191D5658190BDB489FBEA8 /* libPods-BeeCustomButton.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03924AFC4AB1216247BCBD62 /* Pods-BeeCustomButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeCustomButton.debug.xcconfig"; path = "Target Support Files/Pods-BeeCustomButton/Pods-BeeCustomButton.debug.xcconfig"; sourceTree = "<group>"; };
+		19191D5658190BDB489FBEA8 /* libPods-BeeCustomButton.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BeeCustomButton.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3423B68721EC941300500407 /* BeeCustomButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeeCustomButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3423B68A21EC941300500407 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3423B68B21EC941300500407 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,8 +31,8 @@
 		3423B69821EC941400500407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3423B69921EC941400500407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3423B6A121EC941D00500407 /* BeeCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeCustomButton.m; sourceTree = "<group>"; };
-		3423B6A221EC941D00500407 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		3423B6A321EC941D00500407 /* BeeCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeCustomButton.h; sourceTree = "<group>"; };
+		97D6889A5486592ADA78B565 /* Pods-BeeCustomButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeCustomButton.release.xcconfig"; path = "Target Support Files/Pods-BeeCustomButton/Pods-BeeCustomButton.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,17 +40,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAC9E716778DEC2BA4A826EA /* libPods-BeeCustomButton.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E7015F27B6C6FE460789CD1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19191D5658190BDB489FBEA8 /* libPods-BeeCustomButton.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3423B67E21EC941300500407 = {
 			isa = PBXGroup;
 			children = (
 				3423B68921EC941300500407 /* BeeCustomButton */,
 				3423B68821EC941300500407 /* Products */,
+				9501888DFACF14B60A9C3686 /* Pods */,
+				0E7015F27B6C6FE460789CD1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +94,19 @@
 			isa = PBXGroup;
 			children = (
 				3423B6A121EC941D00500407 /* BeeCustomButton.m */,
-				3423B6A221EC941D00500407 /* .gitkeep */,
 				3423B6A321EC941D00500407 /* BeeCustomButton.h */,
 			);
 			name = Classes;
 			path = ../../../Documents/BeeCustomButton/BeeCustomButton/Classes;
+			sourceTree = "<group>";
+		};
+		9501888DFACF14B60A9C3686 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				03924AFC4AB1216247BCBD62 /* Pods-BeeCustomButton.debug.xcconfig */,
+				97D6889A5486592ADA78B565 /* Pods-BeeCustomButton.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +116,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3423B69D21EC941400500407 /* Build configuration list for PBXNativeTarget "BeeCustomButton" */;
 			buildPhases = (
+				963C130AB85624C2F94E9EA9 /* [CP] Check Pods Manifest.lock */,
 				3423B68321EC941300500407 /* Sources */,
 				3423B68421EC941300500407 /* Frameworks */,
 				3423B68521EC941300500407 /* Resources */,
@@ -148,11 +170,35 @@
 				3423B69721EC941400500407 /* LaunchScreen.storyboard in Resources */,
 				3423B69421EC941400500407 /* Assets.xcassets in Resources */,
 				3423B69221EC941300500407 /* Main.storyboard in Resources */,
-				3423B6A521EC941D00500407 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		963C130AB85624C2F94E9EA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BeeCustomButton-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3423B68321EC941300500407 /* Sources */ = {
@@ -302,6 +348,7 @@
 		};
 		3423B69E21EC941400500407 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03924AFC4AB1216247BCBD62 /* Pods-BeeCustomButton.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -319,6 +366,7 @@
 		};
 		3423B69F21EC941400500407 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97D6889A5486592ADA78B565 /* Pods-BeeCustomButton.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
