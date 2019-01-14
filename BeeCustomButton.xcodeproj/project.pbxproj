@@ -13,7 +13,7 @@
 		3423B69421EC941400500407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3423B69321EC941400500407 /* Assets.xcassets */; };
 		3423B69721EC941400500407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3423B69521EC941400500407 /* LaunchScreen.storyboard */; };
 		3423B69A21EC941400500407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3423B69921EC941400500407 /* main.m */; };
-		3423B6A421EC941D00500407 /* BeeCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3423B6A121EC941D00500407 /* BeeCustomButton.m */; };
+		3423B6A821EC9E6900500407 /* BeeCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3423B6A721EC9E6900500407 /* BeeCustomButton.m */; };
 		DAC9E716778DEC2BA4A826EA /* libPods-BeeCustomButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19191D5658190BDB489FBEA8 /* libPods-BeeCustomButton.a */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,8 @@
 		3423B69621EC941400500407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3423B69821EC941400500407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3423B69921EC941400500407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3423B6A121EC941D00500407 /* BeeCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeeCustomButton.m; sourceTree = "<group>"; };
-		3423B6A321EC941D00500407 /* BeeCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeeCustomButton.h; sourceTree = "<group>"; };
+		3423B6A621EC9E6900500407 /* BeeCustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeCustomButton.h; sourceTree = "<group>"; };
+		3423B6A721EC9E6900500407 /* BeeCustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeCustomButton.m; sourceTree = "<group>"; };
 		97D6889A5486592ADA78B565 /* Pods-BeeCustomButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeCustomButton.release.xcconfig"; path = "Target Support Files/Pods-BeeCustomButton/Pods-BeeCustomButton.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +76,8 @@
 		3423B68921EC941300500407 /* BeeCustomButton */ = {
 			isa = PBXGroup;
 			children = (
-				3423B6A021EC941D00500407 /* Classes */,
+				3423B6A721EC9E6900500407 /* BeeCustomButton.m */,
+				3423B6A621EC9E6900500407 /* BeeCustomButton.h */,
 				3423B68A21EC941300500407 /* AppDelegate.h */,
 				3423B68B21EC941300500407 /* AppDelegate.m */,
 				3423B68D21EC941300500407 /* ViewController.h */,
@@ -88,16 +89,6 @@
 				3423B69921EC941400500407 /* main.m */,
 			);
 			path = BeeCustomButton;
-			sourceTree = "<group>";
-		};
-		3423B6A021EC941D00500407 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				3423B6A121EC941D00500407 /* BeeCustomButton.m */,
-				3423B6A321EC941D00500407 /* BeeCustomButton.h */,
-			);
-			name = Classes;
-			path = ../../../Documents/BeeCustomButton/BeeCustomButton/Classes;
 			sourceTree = "<group>";
 		};
 		9501888DFACF14B60A9C3686 /* Pods */ = {
@@ -207,8 +198,8 @@
 			files = (
 				3423B68F21EC941300500407 /* ViewController.m in Sources */,
 				3423B69A21EC941400500407 /* main.m in Sources */,
+				3423B6A821EC9E6900500407 /* BeeCustomButton.m in Sources */,
 				3423B68C21EC941300500407 /* AppDelegate.m in Sources */,
-				3423B6A421EC941D00500407 /* BeeCustomButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
