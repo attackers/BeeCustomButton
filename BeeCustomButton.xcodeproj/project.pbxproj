@@ -14,6 +14,7 @@
 		3423B69721EC941400500407 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3423B69521EC941400500407 /* LaunchScreen.storyboard */; };
 		3423B69A21EC941400500407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3423B69921EC941400500407 /* main.m */; };
 		3423B6A821EC9E6900500407 /* BeeCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3423B6A721EC9E6900500407 /* BeeCustomButton.m */; };
+		3423B6AA21EC9F2C00500407 /* BeeCustomButton.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 3423B6A921EC9F2C00500407 /* BeeCustomButton.podspec */; };
 		DAC9E716778DEC2BA4A826EA /* libPods-BeeCustomButton.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19191D5658190BDB489FBEA8 /* libPods-BeeCustomButton.a */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		3423B69921EC941400500407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3423B6A621EC9E6900500407 /* BeeCustomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BeeCustomButton.h; sourceTree = "<group>"; };
 		3423B6A721EC9E6900500407 /* BeeCustomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BeeCustomButton.m; sourceTree = "<group>"; };
+		3423B6A921EC9F2C00500407 /* BeeCustomButton.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BeeCustomButton.podspec; sourceTree = "<group>"; };
 		97D6889A5486592ADA78B565 /* Pods-BeeCustomButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BeeCustomButton.release.xcconfig"; path = "Target Support Files/Pods-BeeCustomButton/Pods-BeeCustomButton.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 		3423B67E21EC941300500407 = {
 			isa = PBXGroup;
 			children = (
+				3423B6A921EC9F2C00500407 /* BeeCustomButton.podspec */,
 				3423B68921EC941300500407 /* BeeCustomButton */,
 				3423B68821EC941300500407 /* Products */,
 				9501888DFACF14B60A9C3686 /* Pods */,
@@ -160,6 +163,7 @@
 			files = (
 				3423B69721EC941400500407 /* LaunchScreen.storyboard in Resources */,
 				3423B69421EC941400500407 /* Assets.xcassets in Resources */,
+				3423B6AA21EC9F2C00500407 /* BeeCustomButton.podspec in Resources */,
 				3423B69221EC941300500407 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
